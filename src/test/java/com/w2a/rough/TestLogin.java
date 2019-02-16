@@ -11,7 +11,7 @@ public class TestLogin  {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-
+		//Using EGit Plugin
 				
 		HomePage hp = new HomePage();
 		LoginPage lp = hp.goToLogin();
