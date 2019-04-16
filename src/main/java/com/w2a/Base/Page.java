@@ -192,6 +192,7 @@ public class Page {
 		} catch (Throwable t) {
 
 			Utilities.CaptureScreenshot();
+			
 			// Reporter log
 			Reporter.log("<br>" + "Verify failure: " + t.getMessage() + "<br>");
 			Reporter.log("<a target = \"_blank\" href = " + Utilities.screenshotName + "><img src= "

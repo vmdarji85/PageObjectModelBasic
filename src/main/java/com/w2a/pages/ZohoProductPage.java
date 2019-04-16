@@ -9,7 +9,7 @@ public class ZohoProductPage extends Page {
 	
 		
 	public CRMHomePage gotoCRM() throws InterruptedException {
-		click("closeBtn_CSS");
+		//click("closeBtn_CSS");
 		Thread.sleep(2000);
 		click("crmLink_CSS");
 		return new CRMHomePage();
